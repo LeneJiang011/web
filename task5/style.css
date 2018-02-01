@@ -1,0 +1,257 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #dde2cd;
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+h3, h4 {
+    color: #9c9896;
+}
+
+p {
+    text-indent: 2rem;
+}
+
+table {
+    border: 2px solid #9c9896;
+    border-collapse: collapse;
+    width: 100%;   
+}
+
+table tr {
+    border: 2px solid #9c9896;
+}
+
+table tr td, table tr th {
+    border: 2px solid #9c9896;
+    padding: 5px;
+}
+
+table tr th {
+    text-align: left;
+}
+
+form {
+    margin: 0 auto;
+}
+
+form .form-row {
+    display: table-row;
+}
+
+form label, form input, form select, form textarea {
+    display: table-cell;
+    margin-bottom: 1rem;
+}
+
+form label {
+    padding-right: 2rem;
+    text-align: right;
+}
+
+
+form input+p {
+    color: #9c9896;
+}
+
+form textarea {
+    height: 6rem;
+    vertical-align: top;
+    width: 100%;
+}
+
+
+/* navigation */
+nav {   
+    height: 6rem;
+    background-color: #333333;
+    padding: 0;
+}
+
+nav img {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+    
+
+nav ul {
+    float: right;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0 2rem 0;    
+}
+
+nav li {
+    border: none;
+    display: inline-block;
+    list-style-type: none;
+    padding: 1.6rem 1rem 1.6rem 1rem;  
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li a {
+    outline: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav li a:link {
+    color: #ffffff;
+}
+
+nav li a:visited, nav li a:focus {
+    color: #dde2cd;
+}
+
+nav li a:hover {
+    border-bottom: 1px solid;
+    color: #ffffff; 
+}
+
+nav li a:active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+
+/* article */
+
+.left-content {
+    margin-right: 46rem;
+    padding: 0;
+}
+
+div[class*="article"] {
+    background-color: #fff;
+    box-shadow: .2rem .2rem .2rem #959595;
+    margin: 2rem;
+    padding: 2rem;  
+}
+
+.first-article img, .second-article img {
+    width: 38%;
+}
+
+.second-article ul {
+    list-style-type: none;
+}
+
+.picture-article h3 {
+    color: #000000;
+}
+
+.image-style {
+    margin: 2rem;
+    max-width: 40%;
+    min-width: 10%;   
+    width: 20%;
+    display: inline-block;
+    border: 1px #9c9896 solid;
+}
+
+.image-style img {
+    display: block;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.image-style p {
+    text-indent: 0;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.third-article p {
+    margin: 0;
+    text-indent: 0;
+}
+
+.third-article thead {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.third-article tfoot {
+    background-color: #9c9896;
+}
+
+/* sidebar */
+
+.right-form {
+    float: right;
+    padding: 2rem;
+    margin: 0; 
+    width: 40rem;
+    background-color: white;
+    box-shadow: .2rem .2rem .2rem rgb(149, 149, 149);   
+    padding: 2rem;
+    margin: 2rem;   
+}
+
+.right-form h2 {
+    border-left: 2px solid rgb(156, 152, 150);
+    padding-left: 2rem; 
+}
+
+.right-form p {   
+    padding: 0;
+    margin-top: 1rem;
+    text-indent: 0;
+}
+
+.form-content {
+    padding-left: 25%;
+}
+
+#email, #repsd {
+    margin-bottom: 0;
+}
+
+.submit-bt {
+    background-image: linear-gradient(to bottom, rgb(19, 19, 121), rgb(11, 11, 168));
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-size: 2rem;  
+    height: 4rem;
+    padding: 0;
+    width: 100%;   
+}
+
+.submit-bt:focus, .submit-bt:hover {
+    background-image: linear-gradient(to bottom, rgb(11, 11, 168), rgb(11, 11, 168))
+}
+
+.submit-bt:active {
+    box-shadow: inset 2px 2px 1px rgb(5, 2, 53),
+                inset 2px 3px 5px rgb(1, 2, 73),
+                inset -2px -3px 5px rgb(12, 12, 163);
+}
+
+
+/*copyright*/
+
+.copyright {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 3rem;
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+}
